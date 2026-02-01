@@ -1,0 +1,33 @@
+.btn-add{
+  padding: 3px 15px;
+  background-color: blanchedalmond;
+  border:none;
+}
+.items-list-wrapper{
+  background-color:bisque;
+  padding: 10px;
+  margin: 10px;
+}
+.item-list{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+.item-list li{
+  border: 1px solid white;
+  background-color: antiquewhite;
+  padding:20px;
+  color: chocolate;
+  font-weight: 600;
+  position: relative;
+  font-size: 20px;
+}
+.delete-btn{
+  position: absolute;
+  right:20px;
+  border: none;
+  color: red;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: transparent;
+}
