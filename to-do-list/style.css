@@ -1,30 +1,70 @@
-.btn-add{
-  padding: 3px 15px;
+.main-wrapper {
+  padding: 30px;
+  margin: 50px;
+  box-shadow: 1px 1px 1px 1px lightgray;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  gap: 20px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.add-item {
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid lightgrey;
+}
+
+.btn-add {
+  padding: 3px 35px;
   background-color: blanchedalmond;
-  border:none;
+  border: none;
+  border-radius: 15px;
 }
-.items-list-wrapper{
-  background-color:bisque;
+
+.items-list-wrapper {
+  background-color: bisque;
   padding: 10px;
-  margin: 10px;
+  margin: 0 auto;
+  width: 300px;
 }
-.item-list{
+
+.item-list {
   list-style-type: none;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
-.item-list li{
+
+.item-list li {
   border: 1px solid white;
   background-color: antiquewhite;
-  padding:20px;
+  padding: 10px 20px;
   color: chocolate;
   font-weight: 600;
-  position: relative;
+  /* position: relative; */
   font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.delete-btn{
-  position: absolute;
-  right:20px;
+.btn-wrapper{
+  display: flex;
+  gap:10px;
+}
+.edit-btn{
+  padding:0 10px;
+}
+.delete-btn {
+  /* position: absolute;
+  right: 20px;
+  top:12px; */
   border: none;
   color: red;
   font-weight: 600;

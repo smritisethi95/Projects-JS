@@ -5,19 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
-   
+
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <input type="text" name="add-item" id="add-item" placeholder="enter the name of the item here" value="">
-    <button type="submit" class="btn-add" id="btn-add" name="add">Add</button>
-    <!-- <button type="submit" class="btn-delete" id="btn-del" name="add">X</button> -->
-    <div class="items-list-wrapper">
-        <ul class="item-list" id="item-list">
-        </ul>
+
+    <div class="main-wrapper">
+        <div class="buttons-wrapper">
+            <input type="text" name="add-item" id="add-item" class="add-item" placeholder="enter the name of the item here" value="">
+            <button type="submit" class="btn-add" id="btn-add" name="add">Add</button>
+        </div>
+        <div class="items-list-wrapper">
+            <ul class="item-list" id="item-list">
+            </ul>
+        </div>
     </div>
-     <script src="./app.js"></script>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
